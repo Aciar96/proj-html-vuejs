@@ -1,6 +1,6 @@
 <template>
   <header >
-    <img src="../assets/img/dark-logo.png" alt="logo">
+    <img class="logo" src="../assets/img/dark-logo.png" alt="logo">
     <ul>
         <li>home</li>
         <li>pages</li>
@@ -27,13 +27,14 @@ export default {
 <style lang="scss" >
 header{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   width: 100%;
 } 
-img{
-  height: 50px;
-    width: 150px;
+.logo{
+  height: 25px;
+  width: 150px;
+  margin-left: 50px;
    
 }
 ul{
