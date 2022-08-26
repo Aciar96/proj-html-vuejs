@@ -115,7 +115,7 @@ export default {
 }
 
 .drow {
-   width: 1405px;
+   width: 1380px;
    position: absolute;
    top: 700px;
    right: 0px;
